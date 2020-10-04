@@ -63,6 +63,6 @@
 ## :memo: 后记
 
 - [Tjys](https://www.qikaile.tk)
-- [CyC2018/CS-Notes](https://github.com/qikaile/Tjys-Notes)
+- [qikaile/Tjys-Notes](https://github.com/qikaile/Tjys-Notes)
 
 
