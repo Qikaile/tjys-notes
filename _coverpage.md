@@ -1,23 +1,11 @@
-<a href="https://qikaile.tk" target="_blank">
-  <img width="180px" src="https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/circle-cropped.png">
-</a>
+# Tjys’s Notes
+## 技术改变世界
+软件学习 | 生活点滴 | 技术博客
 
-<h1> -TJYS- </h1>
 
-整理的技术知识集，Python、网络、设计...欢迎查阅！
 
-<!--<span id="busuanzi_container_site_pv">Site View : <span id="busuanzi_value_site_pv">-->
+[<i class="iconfont icon-github"></i> GitHub](https://github.com/Qikaile/tjys-notes)
+[开始阅读 <i class="iconfont icon-down"></i>](#main)
 
-[开始阅读](README.md)
-
-<!-- 背景图片 
-
-![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/162421-15591182610908.jpg)
-
--->
-
-<!-- 背景色 
-
-![color](#3399ff)
-
--->
+<!-- background image -->
+![](https://cdn.jsdelivr.net/gh/Qikaile/cdn@master/img/bg.5draylstowg0.jpg)
