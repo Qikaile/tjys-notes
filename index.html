@@ -15,6 +15,143 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
     <!-- 自定义CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Qikaile/cdn/css/mystyle.css">
+  <!-- 将自定义样式放在 Github 上会导致加载速度变得非常慢，所以采取直接内嵌的方式 -->
+    <style type="text/css">
+    .markdown-section h1 {
+        margin: 3rem 0 2rem 0;
+    }
+
+    .markdown-section h2 {
+        margin: 2rem 0 1rem;
+    }
+
+    img,
+    pre {
+        border-radius: 5px;
+    }
+
+    .markdown-section p.tip,
+    .markdown-section tr:nth-child(1n) {
+      background-color: #f8f8f8 !important;
+  }
+
+    .content,
+    .sidebar,
+    .markdown-section,
+    body,
+    .search input {
+        background-color: rgba(243, 242, 238, 1) !important;
+    }
+
+    @media (min-width:600px) {
+        .sidebar-toggle {
+            background-color: #f3f2ee;
+        }
+    }
+
+    .docsify-copy-code-button {
+        background: #f8f8f8 !important;
+        color: #7a7a7a !important;
+    }
+
+    body {
+        /*font-family: Microsoft YaHei, Source Sans Pro, Helvetica Neue, Arial, sans-serif !important;*/
+    }
+
+    .markdown-section pre>code {
+      font-size: 13px;
+  }
+
+  code,
+  pre {
+      background-color: #fff !important;
+  }
+
+    .markdown-section>p {
+        font-size: 16px !important;
+    }
+
+    .markdown-section pre>code {
+        font-family: Consolas, Roboto Mono, Monaco, courier, monospace !important;
+    }
+
+    p, h1, h2, h3, h4, ol, ul {
+      letter-spacing: 2px !important;
+  }
+
+  p, ol, ul {
+      line-height: 30px !important;
+  }
+
+    @media (min-width:600px) {
+        .markdown-section pre>code {
+            font-size: .9rem !important;
+            letter-spacing: 1.1px !important;
+        }
+    }
+
+    @media (max-width:600px) {
+        .markdown-section pre>code {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 15px !important;
+        }
+
+        pre:after {
+            content: "" !important;
+        }
+    }
+
+
+    /*.anchor span {
+    color: rgb(66, 185, 131);
+    }*/
+
+    section.cover h1 {
+        margin: 0;
+    }
+
+    body>section>div.cover-main>ul>li>a {
+        color: #42b983;
+    }
+
+    .markdown-section > div > img,
+    .markdown-section pre {
+        box-shadow: 0px 0px 20px 11px #eaeaea;
+    }
+
+    pre {
+        background-color: #f3f2ee !important;
+    }
+
+    @media (min-width:600px) {
+        pre code {
+            /*box-shadow: 2px 1px 20px 2px #aaa;*/
+            /*border-radius: 10px !important;*/
+            padding-left: 20px !important;
+        }
+    }
+
+    @media (max-width:600px) {
+        pre {
+          padding-left: 3px !important;
+        padding-right: 3px !important;
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+        box-shadow: 0px 0px 20px 0px #eee !important;
+        }
+
+
+        .docsify-copy-code-button {
+            display: none;
+        }
+    }
+
+    .markdown-section pre {
+        padding-left: 0 !important;
+        padding-right: 0px !important;
+    }
+    </style>
 </head>
 <body>
   <!--
@@ -29,7 +166,7 @@
       repo: 'https://github.com/Qikaile/tjys-notes',
             search: {
             paths: 'auto',
-            placeholder: '🔍搜索  ',
+            placeholder: '搜索...(◕ܫ◕)',
             noData: '无结果! 😞 ',
             depth: 6
         },
@@ -70,13 +207,13 @@
         path: window.location.pathname,
         langMode:
         {
-          admin: '博主兼管理员',
-          nick: '昵称(必填)',
-          mail: '邮箱(必填)',
-          link: '网址(选填)',
+          //admin: '博主兼管理员',
+          nick: '昵称',
+          mail: '邮箱',
+          link: '网站',
           sofa: '这里冷冷清清的，快来留下脚印吧！',
         },
-        placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息哦。",  //默认输入框显示内容older
+        placeholder: "✍ 写评论",  //默认输入框显示内容older
         emoji:  [
              'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
              'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
@@ -139,17 +276,7 @@
 
 <!-- 评论框美化 -->
 <style>
-/* comment-圆角 */
-.comments {
-  border-radius: 3px !important;
-}
 
-/* comment-提示 */
-.vheader-item {
-  & label::after {
-    content: '：'
-  }
-}
 
 /* comment-输入框背景图片 */
 .v[data-class=v] .veditor {
@@ -159,13 +286,10 @@
     background-repeat: no-repeat;
     background-position: right;
     background-color: rgba(255,255,255,0);
+    font-size: 1.4em;
     resize: none;
 }
 
-.veditor:focus {
-  background-position-y: 200px !important;
-  transition: all .2s ease-in-out 0s !important;
-}
 </style>
 </body>
 </html>
