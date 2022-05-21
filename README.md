@@ -10,12 +10,12 @@
 
 
 ### :mailbox: Connect with me:
-[<img align="left" alt="Qikaile | Gmail" width="40px" src="https://cdn.jsdelivr.net/gh/Qikaile/cdn/icon/gmail.png" />][gmail]
-[<img align="left" alt="qikaile.tk" width="40px" src="https://cdn.jsdelivr.net/gh/Qikaile/cdn/icon/globe.png" />][website]
-[<img align="left" alt="Qikaile | YouTube" width="40px" src="https://cdn.jsdelivr.net/gh/Qikaile/cdn/icon/youtube.png" />][youtube]
-[<img align="left" alt="Qikaile | Facebook" width="40px" src="https://cdn.jsdelivr.net/gh/Qikaile/cdn/icon/facebook.png" />][facebook]
-[<img align="left" alt="Qikaile | Twitter" width="40px" src="https://cdn.jsdelivr.net/gh/Qikaile/cdn/icon/twitter.png" />][twitter]
-[<img align="left" alt="Qikaile | Instagram" width="40px" src="https://cdn.jsdelivr.net/gh/Qikaile/cdn/icon/instagram.png" />][instagram]
+[<img align="left" alt="Qikaile | Gmail" width="40px" src="https://npm.elemecdn.com/boke-cdn/icon/gmail.png" />][gmail]
+[<img align="left" alt="qikaile.tk" width="40px" src="https://npm.elemecdn.com/boke-cdn/icon/globe.png" />][website]
+[<img align="left" alt="Qikaile | YouTube" width="40px" src="https://npm.elemecdn.com/boke-cdn/icon/youtube.png" />][youtube]
+[<img align="left" alt="Qikaile | Facebook" width="40px" src="https://npm.elemecdn.com/boke-cdn/icon/facebook.png" />][facebook]
+[<img align="left" alt="Qikaile | Twitter" width="40px" src="https://npm.elemecdn.com/boke-cdn/icon/twitter.png" />][twitter]
+[<img align="left" alt="Qikaile | Instagram" width="40px" src="https://npm.elemecdn.com/boke-cdn/icon/instagram.png" />][instagram]
 
 <br />
 <br />
