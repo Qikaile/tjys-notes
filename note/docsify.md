@@ -41,7 +41,7 @@ docsify serve docs
      repo: 'https://github.com/qikaile/tjys-notes'
   }
 </script>
-<script src="https://fastly.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="https://cdn.qikaile.tk/npm/docsify/lib/docsify.min.js"></script>
 ```
 
 ### 2.设置封面
