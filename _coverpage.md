@@ -8,4 +8,4 @@
 [开始阅读 <i class="iconfont icon-down"></i>](#main)
 
 <!-- background image -->
-![](https://gcore.jsdelivr.net/npm/boke-cdn/img/bg.5draylstowg0.jpg)
+![](https://fastly.jsdelivr.net/npm/boke-cdn/img/bg.5draylstowg0.jpg)
